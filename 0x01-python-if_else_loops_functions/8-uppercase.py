@@ -5,8 +5,8 @@ def to_uper(character):
     else:
         return ord(character)
 
-def uppercase(str):
+def uppercase(string):
     str_new = ""
-    for character in str:
+    for character in string:
         str_new += "%c" % to_uper(character)
     print("{:s}".format(str_new))
