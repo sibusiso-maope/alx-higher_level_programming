@@ -68,9 +68,9 @@ class Rectangle:
             return ("")
 
         rect = []
-        for k in range(self.__height):
-            [rect.append('#') for l in range(self.__width)]
-            if k != self.__height - 1:
+        for i in range(self.__height):
+            [rect.append('#') for j in range(self.__width)]
+            if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rectangle))
 
