@@ -1,4 +1,3 @@
-6-rectangle.py
 #!/usr/bin/python3
 """Defines a Rectangle class."""
 
@@ -72,7 +71,7 @@ class Rectangle:
             [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
-        return ("".join(rectangle))
+        return ("".join(rect))
 
     def __repr__(self):
         """Return the string representation of the Rectangle."""
