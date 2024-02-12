@@ -1,6 +1,4 @@
 #!/usr/bin/node
-
-//Prints 2 arguments passed to it, in the following format: " is "
 if (isNaN(process.argv[2]) || process.argv[2] === undefined) {
   console.log('Not a number');
 } else {

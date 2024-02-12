@@ -1,6 +1,4 @@
 #!/usr/bin/node
-
-//computes and prints a factorial
 function factorial (n) {
   if (n < 0) {
     return (-1);

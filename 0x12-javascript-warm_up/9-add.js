@@ -1,6 +1,4 @@
 #!/usr/bin/node
-
-//Adds the 2 intergers
 function add (a, b) {
   const c = a + b;
   console.log(c);
